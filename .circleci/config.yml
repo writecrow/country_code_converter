@@ -31,6 +31,8 @@ jobs:
       - run: php composer-setup.php
       - run: php -r "unlink('composer-setup.php');"
       - run: php composer.phar self-update
+      - run: mv composer.phar /usr/local/bin/composer
+      - run: which composer
 
       - run: composer install -n --prefer-dist
 
