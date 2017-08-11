@@ -2,10 +2,10 @@
 
 [![Circle CI](https://circleci.com/gh/writecrow/country_code_converter.svg?style=shield)](https://circleci.com/gh/writecrow/country_code_converter)
 
-A PHP library for converting country codes to names and vice versa.
+A PHP library for converting ISO country codes to names and vice-versa.
 
 Country data was last updated on August 10, 2017, from
-[http://www.nationsonline.org/oneworld/country_code_list.htm](http://www.nationsonline.org/oneworld/country_code_list.htm)
+[https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements](https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements)
 
 The library recognizes ISO 2-digit, 3-digit, and numeric codes.
 
