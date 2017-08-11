@@ -2,23 +2,6 @@
 #
 # Check https://circleci.com/docs/2.0/language-php/ for more details
 #
-install_composer: &install_composer
-    command: |
-        cd /tmp
-        EXPECTED_SIGNATURE=$(curl -q https://composer.github.io/installer.sig)
-        php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-        ACTUAL_SIGNATURE=$(php -r "echo hash_file('SHA384', 'composer-setup.php');")
-        if [ "$EXPECTED_SIGNATURE" != "$ACTUAL_SIGNATURE" ]
-        then
-            >&2 echo 'ERROR: Invalid installer signature'
-            rm composer-setup.php
-            exit 1
-        fi
-
-        sudo php composer-setup.php --quiet --install-dir /usr/local/bin --filename composer
-        RESULT=$?
-        rm composer-setup.php
-        exit $RESULT
 
 version: 2
 jobs:
@@ -43,6 +26,9 @@ jobs:
           - v1-dependencies-{{ checksum "composer.json" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
+      - run: php composer-setup.php
+      - run: php -r "unlink('composer-setup.php');"
+      - run: php composer.phar self-update
 
       - run: composer install -n --prefer-dist
 
