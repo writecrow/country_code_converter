@@ -2,6 +2,8 @@
 #
 # Check https://circleci.com/docs/2.0/language-php/ for more details
 #
+install_composer: &install_composer
+
 version: 2
 jobs:
   build:
