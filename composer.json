@@ -1,0 +1,29 @@
+{
+    "name": "writecrow/country_code_converter",
+    "description": "Convert country name to codes or vice-versa.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Fullmer",
+            "email": "mark.writecrow@gmail.com",
+            "homepage": "https://markfullmer.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "mark.writecrow@gmail.com",
+        "issues": "https://github.com/writecrow/country_code_converter/issues",
+        "source": "https://github.com/writecrow/country_code_converter"
+    },
+    "autoload": {
+        "psr-4": { "writecrow\\CountryCodeConverter\\": ["src/", "test/"] }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4"
+    },
+    "suggest": {
+        "ext-mbstring": "For best performance",
+        "symfony/polyfill-mbstring": "If you can't install ext-mbstring"
+    }
+}
