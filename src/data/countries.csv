@@ -44,14 +44,14 @@ Central African Republic,CF,CAF,140
 Chad,TD,TCD,148
 Chile,CL,CHL,152
 China,CN,CHN,156
-Hong Kong, SAR China,HK,HKG,344
-Macao, SAR China,MO,MAC,446
+Hong Kong,HK,HKG,344
+Macao,MO,MAC,446
 Christmas Island,CX,CXR,162
 Cocos (Keeling) Islands,CC,CCK,166
 Colombia,CO,COL,170
 Comoros,KM,COM,174
 Congo (Brazzaville),CG,COG,178
-Congo, (Kinshasa),CD,COD,180
+Congo,CD,COD,180
 Cook Islands,CK,COK,184
 Costa Rica,CR,CRI,188
 Côte d'Ivoire,CI,CIV,384
@@ -102,7 +102,7 @@ Hungary,HU,HUN,348
 Iceland,IS,ISL,352
 India,IN,IND,356
 Indonesia,ID,IDN,360
-Iran, Islamic Republic of,IR,IRN,364
+Iran,IR,IRN,364
 Iraq,IQ,IRQ,368
 Ireland,IE,IRL,372
 Isle of Man,IM,IMN,833
@@ -115,8 +115,8 @@ Jordan,JO,JOR,400
 Kazakhstan,KZ,KAZ,398
 Kenya,KE,KEN,404
 Kiribati,KI,KIR,296
-Korea (North),KP,PRK,408
-Korea (South),KR,KOR,410
+North Korea,KP,PRK,408
+South Korea,KR,KOR,410
 Kuwait,KW,KWT,414
 Kyrgyzstan,KG,KGZ,417
 Lao PDR,LA,LAO,418
@@ -180,7 +180,7 @@ Puerto Rico,PR,PRI,630
 Qatar,QA,QAT,634
 Réunion,RE,REU,638
 Romania,RO,ROU,642
-Russian Federation,RU,RUS,643
+Russia,RU,RUS,643
 Rwanda,RW,RWA,646
 Saint-Barthélemy,BL,BLM,652
 Saint Helena,SH,SHN,654
@@ -213,10 +213,10 @@ Svalbard and Jan Mayen Islands,SJ,SJM,744
 Swaziland,SZ,SWZ,748
 Sweden,SE,SWE,752
 Switzerland,CH,CHE,756
-Syrian Arab Republic (Syria),SY,SYR,760
-Taiwan, Republic of China,TW,TWN,158
+Syria,SY,SYR,760
+Taiwan,TW,TWN,158
 Tajikistan,TJ,TJK,762
-Tanzania, United Republic of,TZ,TZA,834
+Tanzania,TZ,TZA,834
 Thailand,TH,THA,764
 Timor-Leste,TL,TLS,626
 Togo,TG,TGO,768
@@ -237,8 +237,8 @@ US Minor Outlying Islands,UM,UMI,581
 Uruguay,UY,URY,858
 Uzbekistan,UZ,UZB,860
 Vanuatu,VU,VUT,548
-Venezuela (Bolivarian Republic),VE,VEN,862
-Viet Nam,VN,VNM,704
+Venezuela,VE,VEN,862
+Vietnam,VN,VNM,704
 Virgin Islands, US,VI,VIR,850
 Wallis and Futuna Islands,WF,WLF,876
 Western Sahara,EH,ESH,732
