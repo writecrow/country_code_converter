@@ -33,7 +33,11 @@ echo CountryCodeConverter::convert('Albania');
 ### Explicitly requesting return format.
 If you want a specific format returned, pass the desired format as a second
 parameter:
+
 ```php
+echo CountryCodeConverter::convert('Albania', 'name');
+// Will print 'Albania'
+
 echo CountryCodeConverter::convert('Albania', 'two-digit');
 // Will print 'AL'
 

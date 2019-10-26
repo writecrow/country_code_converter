@@ -1,0 +1,4 @@
+name: country-code-converter
+recipe: lamp
+config:
+  webroot: .
