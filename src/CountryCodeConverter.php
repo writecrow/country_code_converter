@@ -37,7 +37,7 @@ class CountryCodeConverter {
     $data = array_map('str_getcsv', file($path));
     foreach ($data as $key => $set) {
       if (in_array($input, $set)) {
-        if ($output && in_array($output, $output_map)) {
+        if ($output && array_key_exists($output, $output_map)) {
           $type = $output_map[$output];
           return $set[$type];
         }
