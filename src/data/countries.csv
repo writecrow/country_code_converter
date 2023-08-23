@@ -24,6 +24,7 @@ Belize,BZ,BLZ,84
 Benin,BJ,BEN,204
 Bermuda,BM,BMU,60
 Bhutan,BT,BTN,64
+Bonaire,BQ,BES,535
 Bolivia,BO,BOL,68
 Bosnia and Herzegovina,BA,BIH,70
 Botswana,BW,BWA,72
@@ -57,6 +58,7 @@ Costa Rica,CR,CRI,188
 Côte d'Ivoire,CI,CIV,384
 Croatia,HR,HRV,191
 Cuba,CU,CUB,192
+Curaçao,CW,CUW,531
 Cyprus,CY,CYP,196
 Czech Republic,CZ,CZE,203
 Denmark,DK,DNK,208
@@ -115,6 +117,7 @@ Jordan,JO,JOR,400
 Kazakhstan,KZ,KAZ,398
 Kenya,KE,KEN,404
 Kiribati,KI,KIR,296
+Kosovo,XK,XXK,412
 North Korea,KP,PRK,408
 South Korea,KR,KOR,410
 Kuwait,KW,KWT,414
@@ -128,7 +131,7 @@ Libya,LY,LBY,434
 Liechtenstein,LI,LIE,438
 Lithuania,LT,LTU,440
 Luxembourg,LU,LUX,442
-Macedonia, Republic of,MK,MKD,807
+"Macedonia, Republic of",MK,MKD,807
 Madagascar,MG,MDG,450
 Malawi,MW,MWI,454
 Malaysia,MY,MYS,458
@@ -141,7 +144,7 @@ Mauritania,MR,MRT,478
 Mauritius,MU,MUS,480
 Mayotte,YT,MYT,175
 Mexico,MX,MEX,484
-Micronesia, Federated States of,FM,FSM,583
+"Micronesia, Federated States of",FM,FSM,583
 Moldova,MD,MDA,498
 Monaco,MC,MCO,492
 Mongolia,MN,MNG,496
@@ -239,7 +242,7 @@ Uzbekistan,UZ,UZB,860
 Vanuatu,VU,VUT,548
 Venezuela,VE,VEN,862
 Vietnam,VN,VNM,704
-Virgin Islands, US,VI,VIR,850
+"Virgin Islands, US",VI,VIR,850
 Wallis and Futuna Islands,WF,WLF,876
 Western Sahara,EH,ESH,732
 Yemen,YE,YEM,887
