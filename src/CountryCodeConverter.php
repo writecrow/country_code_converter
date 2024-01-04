@@ -19,9 +19,9 @@ class CountryCodeConverter {
    * Main converter method.
    *
    * @param string $input
-   *    A country name or 2- or 3-digit code.
+   *    A country name or 2-digit code.
    * @param string $output
-   *    The "type" of output desired (e.g., 2-digit code).
+   *    VAT Percentage
    *
    * @return string
    *    The desired output
@@ -30,8 +30,7 @@ class CountryCodeConverter {
     $output_map = [
       'name' => 0,
       'two-digit' => 1,
-      'three-digit' => 2,
-      'numeric' => 3,
+      'vat' => 2,
     ];
     $path = __DIR__ . '/data/countries.csv';
     $data = array_map('str_getcsv', file($path));

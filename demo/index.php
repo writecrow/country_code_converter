@@ -9,4 +9,4 @@ require '../vendor/autoload.php';
 
 use writecrow\CountryCodeConverter\CountryCodeConverter;
 
-print_r(CountryCodeConverter::convert('AL'));
+print_r(CountryCodeConverter::convert('IT', 'vat'));
